@@ -1,0 +1,16 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/mfracker/source/repos/fifty-short/packages/client/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_2bef18b4"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/mfracker/source/repos/fifty-short/packages/client/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_e346aac4"
+  }
+]
