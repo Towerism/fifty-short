@@ -1,0 +1,27 @@
+{
+  "name": "@fifty-short/client",
+  "version": "0.0.0",
+  "description": "fifty-short client",
+  "author": "Martin Fracker, Jr. <martin.frackerjr@gmail.com>",
+  "homepage": "https://github.com/towerism/fifty-short-api#readme",
+  "license": "GPL-3.0",
+  "main": "lib/client.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towerism/fifty-short-api.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/towerism/fifty-short-api/issues"
+  },
+  "dependencies": {}
+}
