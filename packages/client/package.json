@@ -1,27 +1,37 @@
 {
   "name": "@fifty-short/client",
   "version": "0.0.0",
-  "description": "fifty-short client",
-  "author": "Martin Fracker, Jr. <martin.frackerjr@gmail.com>",
-  "homepage": "https://github.com/towerism/fifty-short-api#readme",
-  "license": "GPL-3.0",
-  "main": "lib/client.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/towerism/fifty-short-api.git"
-  },
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
+    "lint": "npm run lint:js && npm run lint:style",
+    "test": "jest"
   },
-  "bugs": {
-    "url": "https://github.com/towerism/fifty-short-api/issues"
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "vuetify": "^2.5.5"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "@vue/test-utils": "^1.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^27.0.5",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "jest": "^27.0.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "vue-jest": "^3.0.4"
+  }
 }
