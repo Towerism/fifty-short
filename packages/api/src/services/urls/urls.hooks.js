@@ -1,6 +1,7 @@
 const { shorturl } = require('@zodash/shorturl')
 const getRandomItem = require('random-weighted-item').default
 const { pick } = require('lodash')
+const { prefixHttps } = require('../../hooks/prefix-https')
 
 module.exports = {
   before: {
@@ -16,7 +17,7 @@ module.exports = {
       }
       context.data.shortened = shortened
       return context
-    }],
+    }, prefixHttps],
     update: [],
     patch: [],
     remove: []

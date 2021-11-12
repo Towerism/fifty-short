@@ -9,11 +9,14 @@ if (nuxtConfig.dev) {
   builder.build()
 }
 
-const nuxtRenderer = (req, res, next) => {
+const nuxtRenderer = async (req, res, next) => {
   const accepts = req.accepts('html', 'json')
-  console.log('accepts', accepts)
   if (accepts === 'json') { return next() }
-  if (!isTestEnv) { nuxt.render(req, res, next) }
+  if (!isTestEnv) {
+    return nuxt.render(req, res, next)
+  }
 }
 
-module.exports = { nuxtRenderer }
+module.exports = { 
+  nuxtRenderer
+}

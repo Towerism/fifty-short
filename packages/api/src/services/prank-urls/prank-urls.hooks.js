@@ -1,9 +1,11 @@
+const { prefixHttps } = require('../../hooks/prefix-https')
+
 module.exports = {
   before: {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [prefixHttps],
     update: [],
     patch: [],
     remove: []
