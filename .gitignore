@@ -36,6 +36,15 @@ node_modules
 .settings/
 *.sublime-workspace
 
+# yarn modern
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # IDE - VSCode
 .vscode/*
 !.vscode/tasks.json
