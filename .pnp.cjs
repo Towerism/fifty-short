@@ -2686,6 +2686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fifty-short/client", "workspace:packages/client"],
             ["@babel/core", "npm:7.16.0"],
             ["@babel/eslint-parser", "virtual:113304cdc2b63bf20ad7161f5fe30f9157a7bc88f89a0d1afb9941cbf306301382594aab9cc9132fcdb6ebf5ae4a1bf3e7a7752ca0786714525f0f87734370cf#npm:7.16.3"],
+            ["@babel/preset-env", "virtual:07ea5751586c02c0a9acf87dc3291b582f4e43a657c2f4748866e20335743e7e1031f2b7e450a24e27365259b1ba616f776dabf9f391ab2b7b1642c62997f5e0#npm:7.16.4"],
             ["@nuxtjs/eslint-config", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:6.0.1"],
             ["@nuxtjs/eslint-module", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:3.0.2"],
             ["@nuxtjs/stylelint-module", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:4.1.0"],
@@ -2703,8 +2704,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nuxt", "npm:2.15.8"],
             ["stylelint", "npm:13.13.1"],
             ["stylelint-config-standard", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:22.0.0"],
+            ["vue", "npm:2.6.14"],
             ["vue-jest", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:3.0.7"],
-            ["vuetify", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:2.6.1"]
+            ["vue-template-compiler", "npm:2.6.14"],
+            ["vuetify", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:2.6.1"]
           ],
           "linkType": "SOFT",
         }]
@@ -5555,8 +5558,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dom-event-types", "npm:1.0.0"],
             ["lodash", "npm:4.17.21"],
             ["pretty", "npm:2.0.0"],
-            ["vue", null],
-            ["vue-template-compiler", null]
+            ["vue", "npm:2.6.14"],
+            ["vue-template-compiler", "npm:2.6.14"]
           ],
           "packagePeers": [
             "@types/vue-template-compiler",
@@ -22834,6 +22837,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-core", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:7.0.0-bridge.0"],
             ["babel-plugin-transform-es2015-modules-commonjs", "npm:6.26.2"],
             ["chalk", "npm:2.4.2"],
+            ["convert-source-map", "npm:1.8.0"],
             ["deasync", "npm:0.1.24"],
             ["extract-from-css", "npm:0.4.4"],
             ["find-babel-config", "npm:1.2.0"],
@@ -22842,8 +22846,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-assign", "npm:4.1.1"],
             ["source-map", "npm:0.5.7"],
             ["tsconfig", "npm:7.0.0"],
-            ["vue", null],
-            ["vue-template-compiler", null],
+            ["vue", "npm:2.6.14"],
+            ["vue-template-compiler", "npm:2.6.14"],
             ["vue-template-es2015-compiler", "npm:1.9.1"]
           ],
           "packagePeers": [
@@ -22983,6 +22987,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vuetify", "npm:2.6.1"]
           ],
           "linkType": "SOFT",
+        }],
+        ["virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:2.6.1", {
+          "packageLocation": "./.yarn/__virtual__/vuetify-virtual-dd42e64502/0/cache/vuetify-npm-2.6.1-8f77513d78-76a66a52bd.zip/node_modules/vuetify/",
+          "packageDependencies": [
+            ["vuetify", "virtual:89f5ba20b90e41e7f5d2c7182e10e7c577a747d998f9e22355709fe97782e7352f58a4bb2d749b9b5bd012e28e3fe61af576b88196e15d3bc81918cc7521e076#npm:2.6.1"],
+            ["@types/vue", null],
+            ["vue", "npm:2.6.14"]
+          ],
+          "packagePeers": [
+            "@types/vue",
+            "vue"
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:2.6.1", {
           "packageLocation": "./.yarn/__virtual__/vuetify-virtual-1efd0bc1ce/0/cache/vuetify-npm-2.6.1-8f77513d78-76a66a52bd.zip/node_modules/vuetify/",
