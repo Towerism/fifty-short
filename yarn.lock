@@ -30,7 +30,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:>=7.11.0, @babel/core@npm:>=7.9.0, @babel/core@npm:^7.1.0, @babel/core@npm:^7.12.16, @babel/core@npm:^7.12.3, @babel/core@npm:^7.14.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
+"@babel/core@npm:>=7.11.0, @babel/core@npm:>=7.9.0, @babel/core@npm:^7.1.0, @babel/core@npm:^7.12.16, @babel/core@npm:^7.12.3, @babel/core@npm:^7.14.0, @babel/core@npm:^7.16.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
   version: 7.16.0
   resolution: "@babel/core@npm:7.16.0"
   dependencies:
@@ -1503,11 +1503,13 @@ __metadata:
     "@nuxtjs/eslint-module": ^3.0.2
     "@nuxtjs/stylelint-module": ^4.0.0
     "@nuxtjs/vuetify": ^1.12.1
+    "@rushstack/eslint-patch": ^1.1.0
     "@vue/test-utils": ^1.2.1
     babel-core: 7.0.0-bridge.0
     babel-jest: ^27.0.5
     core-js: ^3.15.1
     eslint: ^7.29.0
+    eslint-import-resolver-node: ^0.3.6
     eslint-plugin-nuxt: ^2.0.0
     eslint-plugin-vue: ^7.12.1
     jest: ^27.0.5
@@ -3241,6 +3243,13 @@ __metadata:
   version: 1.0.0-next.21
   resolution: "@polka/url@npm:1.0.0-next.21"
   checksum: c7654046d38984257dd639eab3dc770d1b0340916097b2fac03ce5d23506ada684e05574a69b255c32ea6a144a957c8cd84264159b545fca031c772289d88788
+  languageName: node
+  linkType: hard
+
+"@rushstack/eslint-patch@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@rushstack/eslint-patch@npm:1.1.0"
+  checksum: 4602c23454c8bb03502da12398cb5c4c0bfb3b1772535b418ec94ab8c47824f70e6ff32206a35fe7086042d9516959edea439e2371147b1de7eee50ef03ace65
   languageName: node
   linkType: hard
 
