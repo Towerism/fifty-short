@@ -16,4 +16,4 @@ module.exports = function (app) {
   const service = app.service('prank-urls')
 
   service.hooks(hooks)
-};
+}

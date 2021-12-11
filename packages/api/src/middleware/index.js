@@ -5,4 +5,3 @@ module.exports = function (app) {
   app.use(redirect)
   app.use(nuxtRenderer)
 }
-

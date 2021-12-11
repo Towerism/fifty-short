@@ -1,7 +1,5 @@
-const { NotFound } = require('@feathersjs/errors');
-
 const redirect = async (req, res, next) => {
-  const matchesShortenedUrl = /^\/go\/([a-zA-Z0-9]{6})$/.test(req.originalUrl);
+  const matchesShortenedUrl = /^\/go\/([a-zA-Z0-9]{6})$/.test(req.originalUrl)
   if (matchesShortenedUrl) {
     const app = require('../app')
     const urls = app.service('urls')
@@ -18,6 +16,5 @@ const redirect = async (req, res, next) => {
   }
   return next()
 }
-
 
 module.exports = { redirect }
