@@ -1514,11 +1514,8 @@ __metadata:
     nuxt: ^2.15.7
     stylelint: ^13.13.1
     stylelint-config-standard: ^22.0.0
-    vue: ^2.6.4
     vue-jest: ^3.0.4
-    vue-template-compiler: ^2.x
-    vuetify: ^2.5.5
-    webpack: ^4.0.0
+    vuetify: ^2.6.1
   languageName: unknown
   linkType: soft
 
@@ -18678,7 +18675,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-template-compiler@npm:^2.6.12, vue-template-compiler@npm:^2.6.14, vue-template-compiler@npm:^2.x":
+"vue-template-compiler@npm:^2.6.12, vue-template-compiler@npm:^2.6.14":
   version: 2.6.14
   resolution: "vue-template-compiler@npm:2.6.14"
   dependencies:
@@ -18695,7 +18692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^2.6.12, vue@npm:^2.6.4":
+"vue@npm:^2.6.12":
   version: 2.6.14
   resolution: "vue@npm:2.6.14"
   checksum: 23524a1bdca094d62cb3491a46317eed75184b5d61d28fa846ea5d2b241c1cc7084fc67ee259d47a50a6d0bbc33ecaceb7bb52bff81312fe7da07263f3419942
@@ -18717,7 +18714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuetify@npm:^2.5.5, vuetify@npm:^2.6":
+"vuetify@npm:^2.6, vuetify@npm:^2.6.1":
   version: 2.6.1
   resolution: "vuetify@npm:2.6.1"
   peerDependencies:
@@ -18882,7 +18879,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^4.0.0, webpack@npm:^4.46.0":
+"webpack@npm:^4.46.0":
   version: 4.46.0
   resolution: "webpack@npm:4.46.0"
   dependencies:
